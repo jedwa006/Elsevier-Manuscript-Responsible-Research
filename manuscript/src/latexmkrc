@@ -1,0 +1,5 @@
+# Custom locations to include content from 
+
+# Elsevier journal style
+
+$ENV{'TEXINPUTS'}='./tex/latex/elsevier//:' . $ENV{'TEXINPUTS'}; 
